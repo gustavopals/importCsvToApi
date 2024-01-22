@@ -1,0 +1,23 @@
+{
+  "name": "import_csv_to_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavopals/importCsvToApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavopals/importCsvToApi/issues"
+  },
+  "homepage": "https://github.com/gustavopals/importCsvToApi#readme",
+  "dependencies": {
+    "axios": "^1.6.5"
+  }
+}
