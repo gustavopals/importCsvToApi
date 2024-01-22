@@ -1,7 +1,7 @@
 const { default: axios } = require('axios');
 const fs = require('fs');
 
-const caminhoDoArquivo = 'caminho/do/seu/arquivo.txt';
+const caminhoDoArquivo = './tmp/file.csv';
 
 function importCsvToApi () {
 
@@ -19,7 +19,7 @@ function importCsvToApi () {
         // para cada linha do csv chamas a api (POST) do mbrconnect para criar um novo registro
         linhas.forEach((linha, indice) => {
 
-            const url = 'https://api.mbrconnect.com/v1/leads';
+            const url = 'http://localhost:8000/api/LBL_LABELSTR';
             const data = {
                 "name": "João da Silva",
                 "email": "",
