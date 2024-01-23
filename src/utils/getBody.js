@@ -266,8 +266,8 @@ export function getBody({ descricao, repairPn, codigoEtiqueta, modelo }) {
       RPLABEL: {
         CAMPO1: descricao,
         CAMPO2: repairPn,
-        CAMPO4: codigoEtiqueta,
-        CAMPO5: modelo,
+        CAMPO4: modelo,
+        CAMPO5: codigoEtiqueta,
         CAMPO6: null,
       },
     },
